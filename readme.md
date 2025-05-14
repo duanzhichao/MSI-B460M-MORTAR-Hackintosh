@@ -4,7 +4,7 @@
 |            |                                       |
 | -----------|---------------------------------------|
 | BIOS       | 7C82v15(2021-10-18)                   |
-| OS         | macOS 14.4                            |
+| OS         | macOS 15.4.1                            |
 | Mobo       | MSI-MAG-B460M-MORTAR                  |
 | CPU        | i5-10400F                              |
 | RAM        | Kingbank REN DDR4 3600  16GBx2        |
@@ -12,6 +12,12 @@
 | Network    | Realtek PCIe 2.5Gb Ethernet (RTL8125) |
 | Disk       | 铠侠RC20 1T                           |
 | Input      | RK 98                                 |
+
+
+## 更新日志
+#### 1. 更新opencore 1.0.4
+#### 2. 更新其他驱动
+#### 3. 支持macOS 15.4.1
 
 
 ## BIOS 设置
