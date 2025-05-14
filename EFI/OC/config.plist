@@ -168,6 +168,8 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>EnableForAll</key>
+			<false/>
 			<key>FadtEnableReset</key>
 			<false/>
 			<key>NormalizeHeaders</key>
@@ -179,8 +181,6 @@
 			<key>ResetLogoStatus</key>
 			<false/>
 			<key>SyncTableIds</key>
-			<false/>
-			<key>EnableForAll</key>
 			<false/>
 		</dict>
 	</dict>
@@ -196,6 +196,8 @@
 			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
+			<key>ClearTaskSwitchBit</key>
+			<false/>
 			<key>DevirtualiseMmio</key>
 			<true/>
 			<key>DisableSingleUser</key>
@@ -203,6 +205,8 @@
 			<key>DisableVariableWrite</key>
 			<false/>
 			<key>DiscardHibernateMap</key>
+			<false/>
+			<key>EnableForAll</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
 			<true/>
@@ -233,8 +237,6 @@
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
-			<false/>
-			<key>EnableForAll</key>
 			<false/>
 		</dict>
 	</dict>
@@ -631,8 +633,6 @@
 			<integer>0</integer>
 			<key>Timeout</key>
 			<integer>5</integer>
-			<key>SkipCustomEntryCheck</key>
-			<false/>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -841,7 +841,7 @@
 				<key>DefaultBackgroundColor</key>
 				<data>AAAAAA==</data>
 				<key>UIScale</key>
-				<data>AQ==</data>
+				<data>Ag==</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
@@ -1201,6 +1201,8 @@
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
+		<array/>
+		<key>Unload</key>
 		<array/>
 	</dict>
 </dict>
